@@ -1,0 +1,17 @@
+Partials help modularize your project
+  break it down into smaller snippets of Sass
+Sass and CSS folders
+  dump files in corresponding folders
+actual sass partial has a leading underscore
+
+_footer.sass tells sass not to compile the file
+
+We were watching a file and telling it to output a specific file
+  we are no longer watching just a file, but a whole directory
+to watch a folder
+sass --watch SASS:CSS
+  watch the SASS folder and output it into the CSS file
+  creates a bunch of CSS files from the SASS files
+have to _ lead to the directory files as well
+
+Partials just keep everything cleaner, don't forget your import statements
