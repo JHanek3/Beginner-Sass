@@ -1,0 +1,10 @@
+Terminal
+sass app.sass app.css
+
+Autocompile is the watch command we used
+sass --watch input.sass:output.CSS
+
+Could use a third party app to compile
+  Koala is free
+
+Using packages available with your text editor

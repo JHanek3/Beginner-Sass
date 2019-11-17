@@ -1,0 +1,31 @@
+1. Sass is ...?
+
+A scripting Language that is used to extend CSS
+A CSS pre processor
+Widely adopted by the programming industry
+
+2. This style rule is an example of what?
+body {
+  background-color: $brand-primary;
+  font-family: $font-sans;
+  font-size: $font-lg;
+  margin: 0;
+}
+
+SASS
+I don't like that answer, SASS does not have ; nor brackets
+Maybe its just trying to show that variables are use
+
+3.
+Variables in Sass can store what kind of values?
+
+Any valid CSS values in all CSS versions
+
+4.
+Will this Sass compile successfully?
+#radness-box
+  color: $primary-color;
+  background: purple;
+  font-size: $base-font;
+
+No way! The semi-colons break it
