@@ -1,0 +1,48 @@
+Shorthand for CSS
+    write out styles typing less
+Practical real world projects
+
+Syntactically
+Awesome
+StyleSheets
+most, mature, stable, and powerful professional grade CSS extension
+
+Compatible with all CSS versions
+Feature rich
+9+ years
+Industry approved
+Frameworks
+
+CSS Preprocessor
+    A program that process its input data to produce output that is used as input to another program
+    Wood Chipper
+
+CSS cant get messy, unorganized, cluttered etc.
+Clean, simple and easy to read
+Writing with SASS saves time
+
+Benefits of SASS?
+Saves Time
+Easy syntax to learn
+Features like variables, mixins, extends and imports
+    makes the styling more powerful
+
+SASS
+    a new syntax
+    selector type
+    has no curly braces or semi-colons instead use indentation
+
+SASSY CSS
+    pumped up version of vanilla css
+    no new syntax
+    still has access to variables, mixins
+
+Less CSS
+    very similar to scss
+    has access to variables, mixins
+    libraries are different
+    handful of syntactical differences
+
+Bootstrap 4 kicked out less CSS and embraced SASS
+    used to use Less CSS
+    
