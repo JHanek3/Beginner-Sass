@@ -1,3 +1,8 @@
+@import "variables.sass"
 @import "base/base-dir"
 @import "layouts/layouts-dir"
 @import "modules/modules-dir"
+
+//Variables at the top, top to bottom. If you don't import first the dir
+//below will not have the variables they need
+//This only makes 1 http request, vs 10s when not done like this
