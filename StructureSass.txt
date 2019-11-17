@@ -1,0 +1,37 @@
+Modularize your project
+  divide things up into folders
+
+Base
+  style rules for our webpage
+  base-dir.sass
+  base.sass
+  body
+  import the bass sass file into the sass directory of the base folder
+
+Layouts
+  divide sections of your website
+  you use the # id selector
+  navbar, subNavbar, Section/Container, Section/Container, Header
+  layouts-dir.sass
+  header.sass
+  footer.sass
+
+Modules
+  descrete component of the page, carousel buttons
+  only classes
+  button.sass
+  modules-dir.sass
+  navbar.sass
+
+SMACSS, Scalable and Modular Architecture for CSS
+  Standardization of HTML and CSS
+  5 Categories
+  Base
+  Layout
+  Module
+  State
+  Theme
+
+dir files are the directory
+uses @import to import the base/base-dir
+  grabs the directory file from each folder
