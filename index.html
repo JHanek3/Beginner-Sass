@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>SASS</title>
-        <link href=styles.css rel="stylesheet">
-    </head>
-    <body>
-        <h1>I'm feeling SASSY</h1>
-        <div class="circle">
-            
-        </div>
-        
-    
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>So Cool</title>
+    <link rel="stylesheet" href="styles.css"  />
+  </head>
+  <body>
+    <div class="thumb1">
+      <h1>What's up?</h1>
+    </div>
+    <section>
+      <h2>Can you read this?</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+    <br />
+    <section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+    <div class="thumb2"></div>
+    <br />
+    <br />
+      <button class="btn-1">Touch To SASS</button>
+      <br />
+      <button class="btn-2">SASSY</button>
+  </body>
 </html>
 
 <!--
-Created a sass file, browsers only read css
-SASS is just a preprocessor
-Setup a watcher on your sass to compile it 
-    sass --watch styles.sass:style.css
-terminal setup to watch for any changes that happen in the sass file
-can create a variable in sass 
+sass needs a watcher
+it compiles the sass file into a
+css since browsers can only read css
+sass --watch styles.sass(sass file):styles.css(css file)
+$ creates a variable in SASS
+variables in sass will not be compiled in css
+
+Use a mixin to shape things, throw in some parameters(variables)
+move something behind anotehr element, position relative and z-index
+want a circle? border-radius = 50%
+can't leave a mixin empty, must fill all parameters
+  so give it a dummy/repeat
+you can next a hover inside a mixin
+  &:hover
+  put your styles in
 -->
