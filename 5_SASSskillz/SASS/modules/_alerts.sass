@@ -1,0 +1,22 @@
+.alert
+  border: 1px solid $brand-secondary
+  margin: 10px 0
+  padding: 15px
+  text-transform: uppercase
+  +border-rad(10px)
+
+//extend the properties, carries the same styles from above
+.success
+  @extend .alert
+  background: #4CAF50
+
+.warning
+  @extend .alert
+  background: #fc3
+
+.oh-dang
+  @extend .alert
+  background: red
+
+//build one class then use extend to inherit these class properties into
+//another class, technically available globally
